@@ -9,5 +9,13 @@ def is_armstrong(num):
   sum_of_digits=sum(int(digit)**num_of_digits for digit in str(num))
   return num==sum_of_digits
 def print_armstrong_numbers(Start,end):
+  print(f"Armstrong numbers between {start} and {end} are:")
+  for num in range(Start,end+1):
+    if is_armstrong(num):
+      print(num,end=" ")
+  print()
+start=int(input("Enter the starting number of the range:"))
+end=int(input("Enter the ending number of the range:"))
+print_armstrong_numbers(start,end)
   
   
