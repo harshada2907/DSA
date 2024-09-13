@@ -1,1 +1,1 @@
-                                                                                                                                                          ABCD
+#10. Write a program to Convert digit/number to words                                                                                                                                                          ABCD
