@@ -6,3 +6,4 @@ def remove_vowels(input_string):
 input_string=input("Enter a string:")
 output_string=remove_vowels(input_string)
 print("string after removing vowels:",output_string)
+
