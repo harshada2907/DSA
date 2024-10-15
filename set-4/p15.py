@@ -12,3 +12,4 @@ sorted_array = sort_array(my_array)
 
 # Display the sorted array
 print("Sorted Array:", sorted_array)
+
