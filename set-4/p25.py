@@ -16,3 +16,4 @@ arr = [4, 5, 4, 5, 6, 7, 8, 8, 9]
 repeating_elements = find_repeating_elements(arr)
 print("Repeating elements:", repeating_elements)
 
+
