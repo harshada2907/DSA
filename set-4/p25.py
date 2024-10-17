@@ -17,3 +17,5 @@ repeating_elements = find_repeating_elements(arr)
 print("Repeating elements:", repeating_elements)
 
 
+
+
