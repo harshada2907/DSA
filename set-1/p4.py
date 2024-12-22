@@ -1,7 +1,7 @@
 #Write a program to find Number of digits in an integer
-num=input("enter a number")
-if num.isdigit():
-  print("number is digit")
-else:
-  print("number is not a digit")
- 
+def count_digits(number):
+    return len(str(abs(number)))
+number=int(input("Enter an integer:"))
+digits=count_digits(number)
+print(f"The number of digits in {number} is {digits}.")
+  
